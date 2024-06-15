@@ -5,7 +5,7 @@ Makes the ek output file from tshark more Human readable , ordered &amp; usable 
 
 ![Captura de pantalla 2024-06-15 154641](https://github.com/papaitan2/prettify_tshark_ek/assets/78953509/4d916108-4596-4d55-b444-e2e7d861d7ca)
 
-![msg-639356751-19419](https://github.com/papaitan2/prettify_tshark_ek/assets/78953509/2b07ff3f-82fc-441c-ad40-e086f9f92d24)
+![msg-639356751-19419|300](https://github.com/papaitan2/prettify_tshark_ek/assets/78953509/2b07ff3f-82fc-441c-ad40-e086f9f92d24)
 
 # OBJECT : Make the ek output file from *tshark* more Human readable , ordered & usable for text proccesing with a key-value *json* format
 
