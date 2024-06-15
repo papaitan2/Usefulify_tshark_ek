@@ -118,8 +118,6 @@ prettify_ek(input_file, output_file)
 
 
 
-## @____._Tú_ , dame 1 like & suscribe que me quiero ir a andorra a ser influenser
-
 
 
 
