@@ -202,7 +202,8 @@ def ek2PureJSON(input_file, output_file):
                     "41720",
                     "80"
                 ],
-				...
+
+		...
 
 ```
 
