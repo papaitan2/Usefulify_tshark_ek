@@ -6,7 +6,7 @@ Makes the ek output file from tshark more Human readable , ordered &amp; usable 
 
 
 
-# OBJECT : Make the ek output file from tshark more Human readable , ordered & usable for text proccesing with an harmonic key-value *json* format
+# OBJECT : Make the ek output file from _tshark_ more Human readable , ordered & usable for text proccesing with an harmonic key-value *json* format
 
 
 ```Python
