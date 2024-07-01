@@ -8,10 +8,13 @@ Makes the ek output file from tshark more Human readable , ordered &amp; usable 
 
 # OBJECT : Make the ek output file from _tshark_ more Human readable , ordered & usable for text proccesing with an harmonic key-value *json* format
 
+- **Method:** Convert it to JSON format.
+
+- **Benefits:** Greater readability, order and ease of data processing. Simplify your workflow and enhance your analysis.
 
 ```Python
 
-# OBJECT : Make the ek output file from tshark more Human readable , ordered & usable for text proccesing with a key-value format
+# OBJECT : Make the ek output file from tshark more Human readable , ordered & usable for text proccesing with a key-value format, ready to be unraveled by algorithms and curious minds.
 
 import json
 
@@ -120,6 +123,38 @@ prettify_ek(input_file, output_file)
 
 
 ## Next step : ek2PureJSON
+.
+.
+.
+
+
+```Python
+import json
+
+def ek2PureJSON(input_file, output_file):
+    """
+    Convierte un archivo .ek de tshark en un JSON puro y bien formateado.
+    Args:
+        input_file (str): Ruta al archivo de entrada .ek.
+        output_file (str): Ruta al archivo de salida JSON.
+    """
+    all_data = []  
+    with open(input_file, "r") as f_in:
+        for line in f_in:
+            try:
+                data = json.loads(line)
+                all_data.append(data)  
+            except json.JSONDecodeError:
+                print(f"Advertencia: Error al decodificar la línea: {line.strip()}")
+    with open(output_file, "w") as f_out:
+        json.dump(all_data, f_out, indent=4)  
+
+```
+
+
+
+
+
 
 🌶️
 
