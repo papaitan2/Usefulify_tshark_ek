@@ -152,6 +152,57 @@ def ek2PureJSON(input_file, output_file):
 
 ```
 
+### example ek2PureJSON JSON output :
+
+
+```json
+[
+    {
+        "index": {
+            "_index": "packets-2013-08-21",
+            "_type": "doc"
+        }
+    },
+    {
+        "timestamp": "1377093139103",
+        "layers": {
+            "tcp": {
+                "tcp_tcp_srcport": "41720",
+                "tcp_tcp_ack": "0",
+                "tcp_tcp_window_size_value": "32792",
+                "tcp_tcp_dstport": "80",
+                "tcp_tcp_time_delta": "0.000000000",
+                "tcp_tcp_time_relative": "0.000000000",
+                "tcp_tcp_options_wscale_multiplier": "16",
+                "tcp_tcp_flags_ae": false,
+                "tcp_tcp_checksum": "0xce16",
+                "tcp_tcp_completeness": "0",
+                "tcp_tcp_seq_raw": "3046242281",
+                "tcp_tcp_options_timestamp_tsecr": "0",
+                "tcp_tcp_options": "02:04:40:0c:04:02:08:0a:00:0b:20:19:00:00:00:00:01:03:03:04",
+                "tcp_tcp_options_mss_val": "16396",
+                "tcp_tcp_flags_res": false,
+                "tcp_tcp_flags_urg": false,
+                "tcp_tcp_hdr_len": "40",
+                "tcp_tcp_window_size": "32792",
+                "text": "Timestamps",
+                "tcp_tcp_completeness_ack": false,
+                "tcp_tcp_option_kind": [
+                    "2",
+                    "4",
+                    "8",
+                    "1",
+                    "3"
+                ],
+                "tcp_options_sack_perm": "04:02",
+                "tcp_tcp_port": [
+                    "41720",
+                    "80"
+                ],
+				...
+
+```
+
 
 
 
