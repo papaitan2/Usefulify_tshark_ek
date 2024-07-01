@@ -1,4 +1,4 @@
-# prettify_tshark_ek
+# Usefulify_tshark_ek
 Makes the ek output file from tshark more Human readable , ordered &amp; usable for text proccesing with a key-value json format
 
 
@@ -6,7 +6,7 @@ Makes the ek output file from tshark more Human readable , ordered &amp; usable 
 
 
 
-# OBJECT : Make the ek output file from *tshark* more Human readable , ordered & usable for text proccesing with a key-value *json* format
+# OBJECT : Make the ek output file from tshark more Human readable , ordered & usable for text proccesing with an harmonic key-value *json* format
 
 
 ```Python
